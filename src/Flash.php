@@ -13,7 +13,7 @@ class Flash {
      * @param        $type
      * @param string $key
      */
-    public function create($title, $message, $type, $key = 'sweet_alert_message')
+    public function create($title, $message, $type, $key = 'flash_message')
     {
         session()->flash($key,[
             'title'     => $title,

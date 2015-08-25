@@ -66,6 +66,6 @@ alert()->overlay('Title', 'Message')
 
 
 
-###SweetAlerts website
+###SweetAlert website
 
 http://t4t5.github.io/sweetalert/
