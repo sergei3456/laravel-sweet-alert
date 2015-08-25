@@ -16,5 +16,6 @@
         "psr-4": {
             "Infinety\\SweetAlert\\": "/src"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
