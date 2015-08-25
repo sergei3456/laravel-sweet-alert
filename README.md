@@ -61,7 +61,8 @@ alert()->error('Title', 'Message')
 alert()->success('Title', 'Message')
 
 
-alert()->overlay('Title', 'Message')````
+alert()->overlay('Title', 'Message')
+````
 
 
 
