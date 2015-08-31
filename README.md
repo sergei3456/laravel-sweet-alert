@@ -64,6 +64,10 @@ alert()->success('Title', 'Message')
 alert()->overlay('Title', 'Message')
 ````
 
+###Issues
+
+If you have any questions or issues, please open an Issue and I will look at this and look to fix as soon as possible.
+
 
 
 ###SweetAlert website
