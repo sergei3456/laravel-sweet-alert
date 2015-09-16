@@ -1,7 +1,9 @@
 <?php
 
-namespace Infinety/SweetAlert;
+namespace Infinety\SweetAlert;
 
+
+use Illuminate\Support\Facades\Session;
 
 class Flash {
 
@@ -15,7 +17,7 @@ class Flash {
      */
     public function create($title, $message, $type, $key = 'flash_message')
     {
-        session()->flash($key,[
+        Session::flash($key,[
             'title'     => $title,
             'message'   => $message,
             'type'      => $type

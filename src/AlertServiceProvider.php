@@ -1,6 +1,6 @@
 <?php
 
-namespace Infinety/SweetAlert;
+namespace Infinety\SweetAlert;
 
 use Illuminate\Support\ServiceProvider;
 
