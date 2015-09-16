@@ -22,7 +22,7 @@ Add the JS script before close your </body> tag.
 <script src="js/sweetalert.js"></script>
 Include the alerts view to your master view. Add this code right after set the JS script file.
 
-@include('Alerts::show')
+@include('Alerts::alerts')
 Usage
 
 On your controllers is a perfect place to use it, any way you can fire the alerts from jobs or events.
